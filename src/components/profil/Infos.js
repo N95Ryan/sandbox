@@ -11,6 +11,7 @@ const Infos = () => {
         {datas && // Vérification de l'existence de la variable et de sa longueur
           datas.length > 0 &&
           datas.map((element, index) => {
+            console.log(index + 1);
             //Puis parcours du tableau
 
             return (
@@ -22,6 +23,7 @@ const Infos = () => {
                   {element.title}
                 </h2>
                 <p className="tableau-category text-x ">{element.category}</p>
+                <button className="numero">{index + 1}</button>
               </div>
             );
           })}
