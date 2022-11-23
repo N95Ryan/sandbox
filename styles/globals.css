@@ -36,6 +36,20 @@ a {
   transform: translateY(4px);
 }
 
+.tableau-infos h2,
+.tableau-infos p {
+  color: black;
+}
+
+.tableau-infos:nth-child(6) {
+  background-color: #fcd928;
+}
+
+.tableau-infos:nth-child(6) h2,
+.tableau-infos:nth-child(6) p {
+  color: blue;
+}
+
 * {
   box-sizing: border-box;
 }
