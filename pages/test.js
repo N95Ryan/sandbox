@@ -32,7 +32,7 @@ export default function Home() {
             Ces deux boutons quant à eux, redirigent vers mes réseaux sociaux.
           </p>
           <a
-            href="https://github.com/BigNayru"
+            href="https://github.com/N95Ryan"
             className={styles.card}
             target="blank"
           >

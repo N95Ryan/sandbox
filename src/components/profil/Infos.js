@@ -3,10 +3,11 @@ import datas from "./Datas";
 const Infos = () => {
   return (
     <div>
-      <h2 className="text-4xl font-sans font-bold p-14 text-center">
+      <h2 className="text-5xl font-sans font-bold text-yellow-400 p-12 text-center underline-offset-8">
         5 infos vite fait, bien fait !
       </h2>
-      <div className="grid grid-cols-2 gap-8">
+
+      <div className="grid grid-cols-2 gap-8 bg-blue-700 p-8 rounded-xl">
         {datas && // Vérification de l'existence de la variable et de sa longueur
           datas.length > 0 &&
           datas.map((element, index) => {
@@ -14,8 +15,10 @@ const Infos = () => {
 
             return (
               <div key={index} className="bg-white rounded-xl p-4">
-                <h2 className="text-2xl text-black">{element.title}</h2>
-                <p className="text-black">{element.category}</p>
+                <h2 className="text-2xl text-black font-bold">
+                  {element.title}
+                </h2>
+                <p className="text-black text-x ">{element.category}</p>
               </div>
             );
           })}
