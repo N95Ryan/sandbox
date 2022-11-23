@@ -36,18 +36,21 @@ a {
   transform: translateY(4px);
 }
 
-.tableau-infos h2,
-.tableau-infos p {
+.tableau-infos:nth-child(6) h2,
+.tableau-infos:nth-child(6) p {
+  color: blue;
+}
+
+.tableau-title {
   color: black;
+}
+.tableau-category {
+  color: black;
+  padding-top: 1rem;
 }
 
 .tableau-infos:nth-child(6) {
   background-color: #fcd928;
-}
-
-.tableau-infos:nth-child(6) h2,
-.tableau-infos:nth-child(6) p {
-  color: blue;
 }
 
 .numero {
@@ -58,10 +61,10 @@ a {
   font-weight: bold;
   padding: 15px 25px;
   position: relative;
-  display: inline-block;
+  display: block;
   border-radius: 100%;
-  top: 2rem;
-  left: 32rem;
+  bottom: 2rem;
+  right: 2rem;
 }
 
 * {

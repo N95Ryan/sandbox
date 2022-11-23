@@ -17,13 +17,14 @@ const Infos = () => {
             return (
               <div
                 key={index}
-                className="tableau-infos bg-white rounded-xl p-4"
+                className="tableau-infos bg-white rounded-xl p-3"
               >
+                <button className="numero">{index + 1}</button>
+
                 <h2 className="tableau-title text-2xl font-bold">
                   {element.title}
                 </h2>
-                <p className="tableau-category text-x ">{element.category}</p>
-                <button className="numero">{index + 1}</button>
+                <p className="tableau-category text-x">{element.category}</p>
               </div>
             );
           })}
