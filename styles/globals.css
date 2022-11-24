@@ -50,12 +50,12 @@ a {
 }
 
 .tableau-infos:nth-child(6) {
-  background-color: #fcd928;
+  background-color: #ffae00;
 }
 
 .numero {
   background-color: red;
-  border: 4px solid black;
+  border: 3px solid black;
   color: white;
   font-size: larger;
   font-weight: bold;
