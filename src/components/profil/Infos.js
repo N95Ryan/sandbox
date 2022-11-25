@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Infos = () => {
   return (
     <div>
-      <h2 className="text-5xl font-sans font-bold text-yellow-400 p-12 text-center underline-offset-8">
+      <h2 className="title-infos text-5xl font-sans font-bold p-12 text-center underline-offset-8">
         5 infos vite fait, bien fait !
       </h2>
 

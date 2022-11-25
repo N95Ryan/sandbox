@@ -24,6 +24,10 @@ a {
   transform: translateY(4px);
 }
 
+.Bouton-1:active :hover {
+  background-color: #ffae00;
+}
+
 .Bouton-2:active {
   transform: translateY(4px);
 }
@@ -34,6 +38,10 @@ a {
 
 .Bouton-4:active {
   transform: translateY(4px);
+}
+
+.title-infos {
+  color: #ffae00;
 }
 
 .tableau-infos:nth-child(6) h2,
@@ -55,11 +63,11 @@ a {
 
 .numero {
   background-color: red;
-  border: 3px solid black;
+  border: 2px solid black;
   color: white;
-  font-size: larger;
+  font-size: xx-large;
   font-weight: bold;
-  padding: 15px 25px;
+  padding: 10px 25px;
   position: relative;
   display: block;
   border-radius: 100%;
