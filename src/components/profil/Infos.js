@@ -3,11 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Infos = () => {
   return (
     <div>
-      <h2 className="title-infos text-5xl font-sans font-bold p-12 text-center underline-offset-8">
+      <h2 className="title-infos text-5xl font-sans font-bold p-12 text-center underline-offset-8 ">
         5 infos vite fait, bien fait !
       </h2>
 
-      <div className="grid grid-cols-2 gap-8 bg-blue-700 p-8 rounded-xl">
+      <div className="grid grid-cols-2 gap-8 bg-blue-700 p-8  rounded-xl">
         {datas && // Vérification de l'existence de la variable et de sa longueur
           datas.length > 0 &&
           datas.map((element, index) => {
@@ -19,7 +19,7 @@ const Infos = () => {
                 key={index}
                 className="tableau-infos bg-white rounded-xl p-3"
               >
-                <button className="numero">{index + 1}</button>
+                <button className="numero rounded-full">{index + 1}</button>
 
                 <h2 className="tableau-title text-2xl font-bold">
                   {element.title}
