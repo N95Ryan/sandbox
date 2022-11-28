@@ -19,8 +19,9 @@ const Infos = () => {
                 key={index}
                 className="tableau-infos bg-white rounded-xl p-3"
               >
-                <button className="numero rounded-full">{index + 1}</button>
-
+                <button className={`numero rounded-full numero-${index}`}>
+                  {index + 1}
+                </button>
                 <h2 className="tableau-title text-2xl font-bold">
                   {element.title}
                 </h2>
