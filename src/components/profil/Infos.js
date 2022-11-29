@@ -1,4 +1,5 @@
 import datas from "./Datas";
+import cx from "classnames";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Infos = () => {
   return (
@@ -17,11 +18,19 @@ const Infos = () => {
             return (
               <div
                 key={index}
-                className="tableau-infos bg-white rounded-xl p-3"
+                className="tableau-infos bg-white rounded-xl p-3 relative"
               >
-                <button className={`numero rounded-full numero-${index}`}>
+                <span
+                  className={cx(
+                    `numero rounded-full text-center numero-${
+                      index + 1
+                    } absolute -top-2 -left-2`,
+                    element.category === "Article" && "article",
+                    element.category !== "Video" && "video"
+                  )}
+                >
                   {index + 1}
-                </button>
+                </span>
                 <h2 className="tableau-title text-2xl font-bold">
                   {element.title}
                 </h2>

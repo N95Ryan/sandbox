@@ -22,6 +22,7 @@ const datas = [
   {
     title: "La pépite de Freddy Gladieux",
     category: "Contenu sponsorisé",
+    isSponsored: true,
   },
 ];
 
