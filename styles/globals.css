@@ -44,45 +44,63 @@ a {
   color: #ffae00;
 }
 
-.tableau-infos:nth-child(6) {
-  background-color: #ffae00;
-}
-
 .tableau-infos:nth-child(6) h2,
 .tableau-infos:nth-child(6) p {
   color: blue;
 }
 
+.tableau-infos:nth-child(6) {
+  background-color: #ffae00;
+}
+
 .tableau-title {
   color: black;
+  margin-top: 2rem;
 }
 .tableau-category {
   color: black;
   padding-top: 1rem;
 }
 
+.tableau-infos:nth-child(1) .numero {
+  color: red;
+  background-color: #ffae00;
+}
+
+.tableau-infos:nth-child(2) .numero {
+  color: #ffae00;
+  background-color: black;
+}
+
+.tableau-infos:nth-child(3) .numero {
+  color: #ffae00;
+  background-color: red;
+}
+
 .tableau-infos:nth-child(4) .numero {
-  background-color: green;
+  color: blue;
+  background-color: #ffae00;
+}
+
+.tableau-infos:nth-child(5) .numero {
+  color: red;
+  background-color: black;
+}
+
+.tableau-infos:nth-child(6) .numero {
+  display: none;
 }
 
 .numero {
   background-color: red;
-  border: 2px solid black;
-  color: white;
-  font-size: xx-large;
+  font-size: 2rem;
   font-weight: bold;
   width: 50px;
   height: 50px;
   padding-bottom: 25px;
-  /* padding: 10px 25px; */
-  /* position: relative;
-  display: block;
-  bottom: 2rem;
-  right: 2rem; */
 }
 
 * {
-  box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: dark) {

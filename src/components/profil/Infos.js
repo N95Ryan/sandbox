@@ -24,9 +24,7 @@ const Infos = () => {
                   className={cx(
                     `numero rounded-full text-center numero-${
                       index + 1
-                    } absolute -top-2 -left-2`,
-                    element.category === "Article" && "article",
-                    element.category !== "Video" && "video"
+                    } absolute -top-6 left-4`
                   )}
                 >
                   {index + 1}
